@@ -4,6 +4,9 @@ function beepBoop(number) {
     if (i.toString().includes(1)) {
       numberArray[i] = "Beep!";
     }
+    else if (i.toString().includes(2)) {
+      numberArray[i] = "Boop!";
+    }
     else {
       numberArray[i] = i.toString();
     }
