@@ -63,7 +63,7 @@ This project was made for a independent code review at [Epicodus](https://www.ep
 
 5. A clean code with it being refactored and easy-to-read. Along with making sure we use 'lowerCamelCase' for variables.
 
-Thank you for checking out my project. If you would like to contact me, you can do so by emailing me at <dylan.peterson17@gmail.com>
+Thank you for checking out my project. If you would like to contact me, you can do so by emailing me at <dylan.peterson17@gmail.com> or if you'd like to see more of my projects check out my [GitHub](https://github.com/DyPeterson).
 
 ### Known Bugs
 At this time there is no known bugs.
