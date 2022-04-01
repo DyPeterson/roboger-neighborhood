@@ -14,7 +14,6 @@ function beepBoop(number) {
     else {
       numberArray[i] = i.toString();
     }
-    // numberArray.push(index.toString());
     console.log(numberArray);
   }
 }
