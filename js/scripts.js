@@ -9,28 +9,22 @@ function beepBoop(number) {
     else if (i.toString().includes(2)) {
       numberArray[i] = "Boop!";
     }
-    else if (i.toString().includes(1)){
+    else if (i.toString().includes(1)) {
       numberArray[i] = "Beep!";
     }
     else {
       numberArray[i] = i.toString();
-    }
-    // console.log(numberArray);
+    } 
   }
+  return numberArray;
 }
 
 //  <===> User Interface logic <===>
 
 $(document).ready(function() {
-  $("#form").submit(function(event) {
+  $("#formOne").submit(function(event) {
     event.preventDefault();
-    const number = $("#input").val();
-    const result = beepBoop(number);
-    $("#output").text(parseInt(result))
-
-
-    console.log(result)
+    const userInput = $("input#entry").val();
+    $("p#output").text(beepBoop(userInput));
   })
 })
-
-// Take beepBoop function and run it to display parsed string to user.
