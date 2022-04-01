@@ -21,4 +21,16 @@ function beepBoop(number) {
 
 //  <===> User Interface logic <===>
 
+$(document).ready(function() {
+  $("#form").submit(function(event) {
+    event.preventDefault();
+    const number = $("#input").val();
+    const result = beepBoop(number);
+    $("#output").text(parseInt(result))
+
+
+    console.log(result)
+  })
+})
+
 // Take beepBoop function and run it to display parsed string to user.
