@@ -1,10 +1,13 @@
 function beepBoop(number) {
   const numberArray = [];
-  for (let index = 0; index <= number; index ++) {
-    if (index === 1) {
-      numberArray.push("Beep!")
+  for (let i = 0; i <= number; i ++) {
+    if (i.toString().includes(1)) {
+      numberArray[i] = "Beep!";
     }
-    numberArray.push(index.toString());
+    else {
+      numberArray[i] = i.toString();
+    }
+    // numberArray.push(index.toString());
     console.log(numberArray);
   }
 }
