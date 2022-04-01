@@ -1,4 +1,5 @@
-// Business Logic
+//  <===> Business Logic <===>
+
 function beepBoop(number) {
   const numberArray = [];
   for (let i = 0; i <= number; i ++) {
@@ -14,6 +15,10 @@ function beepBoop(number) {
     else {
       numberArray[i] = i.toString();
     }
-    console.log(numberArray);
+    // console.log(numberArray);
   }
 }
+
+//  <===> User Interface logic <===>
+
+// Take beepBoop function and run it to display parsed string to user.
