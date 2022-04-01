@@ -1,3 +1,4 @@
+// Business Logic
 function beepBoop(number) {
   const numberArray = [];
   for (let i = 0; i <= number; i ++) {
@@ -6,6 +7,9 @@ function beepBoop(number) {
     }
     else if (i.toString().includes(2)) {
       numberArray[i] = "Boop!";
+    }
+    else if (i.toString().includes(3)){
+      numberArray[i] = "Won't you be my neighbor?"
     }
     else {
       numberArray[i] = i.toString();
